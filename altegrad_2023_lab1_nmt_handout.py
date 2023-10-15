@@ -2,8 +2,8 @@
 
 
 
-Dr. G. Shang and H. Abdine</center>
-"""
+#Dr. G. Shang and H. Abdine</center>
+
 
 import torch
 import torch.nn as nn
@@ -13,7 +13,7 @@ from torch.nn.utils.rnn import pad_sequence
 from tqdm import tqdm
 from nltk import word_tokenize
 
-"""
+
 
 class Encoder(nn.Module):
     def __init__(self, vocab_size, embedding_dim, hidden_dim, padding_idx):
